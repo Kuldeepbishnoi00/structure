@@ -12,7 +12,7 @@ const userragestor = (req, res) => {
       .status(201)
       .json({ success: true, message: `${fullname}signup successfully` });
   } catch (error) {
-    console.log(error);
+    console.log(error); 
   }
 };
 
